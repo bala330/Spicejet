@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="spicejet_ultility.Spicejet_listeners"></listener>
+	</listeners>
+	<parameter name="url" value="https://www.spicejet.com/"></parameter>
+  <test thread-count="5" name="login_signup_page">
+	  <parameter name="browser" value="chrome"></parameter>
+	  <classes>
+		  <class name="testcases.Tc_001_valid_signup_page"></class>
+		  <class name="testcases.Tc_002_invalid_signup_page"></class>
+		  <class name="testcases.Tc_003_valid_loginpage"></class>
+		  <class name="testcases.Tc_004_invalid_login_page"></class>
+		 <class name="testcases.Tc_005_valid_onewaytrip"></class>
+		 <class name="testcases.Tc_006_valid_roundtrip"></class>
+	  </classes>
+  </test> 
+  <test name="valid_booking_passengers_carddetails">
+	  <parameter name="browser" value="edge"></parameter>
+	  <classes>
+		   
+		    
+		  <class name="testcases.Tc_007_valid_check_in"></class>
+          <class name="testcases.Tc_008_valid_flightstatus"></class>
+          <class name="testcases.Tc_009_valid_managebooking"></class>	
+          <class name="testcases.Tc_013_onewaytrip_invalid_cardpayements"></class>	  
+	  </classes>
+  </test>
+  <test name="Invalid_cerdationals">
+  <parameter name="browser" value="firefox"></parameter>
+  <classes>
+	  <class name="testcases.Tc_010_invalid_checkin"></class>
+	  <class name="testcases.Tc_011_invalid_flightstatus"></class>
+	  <class name="testcases.Tc_012_invalid_managebooking"></class>
+	  <class name="testcases.Tc_014_invalid_roundtrip_page"></class>
+  </classes>
+  </test>
+</suite> <!-- Suite -->

@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-07T19:30:27 IST" name="Suite" finished-at="2023-12-07T19:42:35 IST" duration-ms="727706">
+    <groups>
+    </groups>
+    <test started-at="2023-12-07T19:30:27 IST" name="login_signup_page" finished-at="2023-12-07T19:37:13 IST" duration-ms="406478">
+      <class name="testcases.Tc_003_valid_loginpage">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc_003_valid_loginpage@2dcd168a]" started-at="2023-12-07T19:31:34 IST" name="browserlaunch" finished-at="2023-12-07T19:31:50 IST" duration-ms="15634" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="validloginpage()[pri:3, instance:testcases.Tc_003_valid_loginpage@2dcd168a]" started-at="2023-12-07T19:31:50 IST" name="validloginpage" finished-at="2023-12-07T19:31:54 IST" duration-ms="3830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validloginpage -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:testcases.Tc_003_valid_loginpage@2dcd168a]" started-at="2023-12-07T19:31:55 IST" name="browserclose" finished-at="2023-12-07T19:31:56 IST" duration-ms="712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- testcases.Tc_003_valid_loginpage -->
+      <class name="testcases.Tc_004_invalid_login_page">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc_004_invalid_login_page@388526fb]" started-at="2023-12-07T19:31:56 IST" name="browserlaunch" finished-at="2023-12-07T19:32:12 IST" duration-ms="16223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="invalidloginpage()[pri:4, instance:testcases.Tc_004_invalid_login_page@388526fb]" started-at="2023-12-07T19:32:12 IST" name="invalidloginpage" finished-at="2023-12-07T19:32:15 IST" duration-ms="3436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidloginpage -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:testcases.Tc_004_invalid_login_page@388526fb]" started-at="2023-12-07T19:32:16 IST" name="browserclose" finished-at="2023-12-07T19:32:18 IST" duration-ms="1534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- testcases.Tc_004_invalid_login_page -->
+      <class name="testcases.Tc_002_invalid_signup_page">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc_002_invalid_signup_page@6138e79a]" started-at="2023-12-07T19:31:00 IST" name="browserlaunch" finished-at="2023-12-07T19:31:16 IST" duration-ms="16304" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="invalidsignuppage()[pri:2, instance:testcases.Tc_002_invalid_signup_page@6138e79a]" started-at="2023-12-07T19:31:16 IST" name="invalidsignuppage" finished-at="2023-12-07T19:31:33 IST" duration-ms="16419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidsignuppage -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:testcases.Tc_002_invalid_signup_page@6138e79a]" started-at="2023-12-07T19:31:33 IST" name="browserclose" finished-at="2023-12-07T19:31:34 IST" duration-ms="1250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- testcases.Tc_002_invalid_signup_page -->
+      <class name="testcases.Tc_006_valid_roundtrip">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc_006_valid_roundtrip@7803bfd]" started-at="2023-12-07T19:34:28 IST" name="browserlaunch" finished-at="2023-12-07T19:34:44 IST" duration-ms="16142" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="validroundtrip()[pri:6, instance:testcases.Tc_006_valid_roundtrip@7803bfd]" started-at="2023-12-07T19:34:44 IST" name="validroundtrip" finished-at="2023-12-07T19:37:11 IST" duration-ms="147218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validroundtrip -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:testcases.Tc_006_valid_roundtrip@7803bfd]" started-at="2023-12-07T19:37:11 IST" name="browserclose" finished-at="2023-12-07T19:37:13 IST" duration-ms="1915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- testcases.Tc_006_valid_roundtrip -->
+      <class name="testcases.Tc_001_valid_signup_page">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc_001_valid_signup_page@29a0cdb]" started-at="2023-12-07T19:30:27 IST" name="browserlaunch" finished-at="2023-12-07T19:30:45 IST" duration-ms="17570" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="validsignuppage()[pri:1, instance:testcases.Tc_001_valid_signup_page@29a0cdb]" started-at="2023-12-07T19:30:45 IST" name="validsignuppage" finished-at="2023-12-07T19:30:58 IST" duration-ms="13663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validsignuppage -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:testcases.Tc_001_valid_signup_page@29a0cdb]" started-at="2023-12-07T19:30:58 IST" name="browserclose" finished-at="2023-12-07T19:31:00 IST" duration-ms="1571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- testcases.Tc_001_valid_signup_page -->
+      <class name="testcases.Tc_005_valid_onewaytrip">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc_005_valid_onewaytrip@21a21c64]" started-at="2023-12-07T19:32:18 IST" name="browserlaunch" finished-at="2023-12-07T19:32:34 IST" duration-ms="16487" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="validonewaytip()[pri:5, instance:testcases.Tc_005_valid_onewaytrip@21a21c64]" started-at="2023-12-07T19:32:34 IST" name="validonewaytip" finished-at="2023-12-07T19:34:26 IST" duration-ms="111802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validonewaytip -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:testcases.Tc_005_valid_onewaytrip@21a21c64]" started-at="2023-12-07T19:34:26 IST" name="browserclose" finished-at="2023-12-07T19:34:28 IST" duration-ms="1492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- testcases.Tc_005_valid_onewaytrip -->
+    </test> <!-- login_signup_page -->
+    <test started-at="2023-12-07T19:37:14 IST" name="valid_booking_passengers_carddetails" finished-at="2023-12-07T19:40:45 IST" duration-ms="211085">
+      <class name="testcases.Tc_007_valid_check_in">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc_007_valid_check_in@691939c9]" started-at="2023-12-07T19:37:14 IST" name="browserlaunch" finished-at="2023-12-07T19:37:33 IST" duration-ms="19019" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="validcheckin()[pri:7, instance:testcases.Tc_007_valid_check_in@691939c9]" started-at="2023-12-07T19:37:33 IST" name="validcheckin" finished-at="2023-12-07T19:37:37 IST" duration-ms="3419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validcheckin -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:testcases.Tc_007_valid_check_in@691939c9]" started-at="2023-12-07T19:37:38 IST" name="browserclose" finished-at="2023-12-07T19:37:39 IST" duration-ms="1148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- testcases.Tc_007_valid_check_in -->
+      <class name="testcases.Tc_013_onewaytrip_invalid_cardpayements">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc_013_onewaytrip_invalid_cardpayements@512535ff]" started-at="2023-12-07T19:38:35 IST" name="browserlaunch" finished-at="2023-12-07T19:38:43 IST" duration-ms="7650" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="invalid_onewaytrip_cardpayements()[pri:13, instance:testcases.Tc_013_onewaytrip_invalid_cardpayements@512535ff]" started-at="2023-12-07T19:38:43 IST" name="invalid_onewaytrip_cardpayements" finished-at="2023-12-07T19:40:44 IST" duration-ms="121295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_onewaytrip_cardpayements -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:testcases.Tc_013_onewaytrip_invalid_cardpayements@512535ff]" started-at="2023-12-07T19:40:44 IST" name="browserclose" finished-at="2023-12-07T19:40:45 IST" duration-ms="1268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- testcases.Tc_013_onewaytrip_invalid_cardpayements -->
+      <class name="testcases.Tc_008_valid_flightstatus">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc_008_valid_flightstatus@4f1bfe23]" started-at="2023-12-07T19:37:39 IST" name="browserlaunch" finished-at="2023-12-07T19:37:58 IST" duration-ms="19346" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="validflightstatus()[pri:8, instance:testcases.Tc_008_valid_flightstatus@4f1bfe23]" started-at="2023-12-07T19:37:58 IST" name="validflightstatus" finished-at="2023-12-07T19:38:05 IST" duration-ms="7137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validflightstatus -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:testcases.Tc_008_valid_flightstatus@4f1bfe23]" started-at="2023-12-07T19:38:06 IST" name="browserclose" finished-at="2023-12-07T19:38:08 IST" duration-ms="1425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- testcases.Tc_008_valid_flightstatus -->
+      <class name="testcases.Tc_009_valid_managebooking">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc_009_valid_managebooking@e19bb76]" started-at="2023-12-07T19:38:08 IST" name="browserlaunch" finished-at="2023-12-07T19:38:28 IST" duration-ms="20227" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="validmanagebooking()[pri:9, instance:testcases.Tc_009_valid_managebooking@e19bb76]" started-at="2023-12-07T19:38:28 IST" name="validmanagebooking" finished-at="2023-12-07T19:38:32 IST" duration-ms="3649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validmanagebooking -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:testcases.Tc_009_valid_managebooking@e19bb76]" started-at="2023-12-07T19:38:33 IST" name="browserclose" finished-at="2023-12-07T19:38:35 IST" duration-ms="1550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- testcases.Tc_009_valid_managebooking -->
+    </test> <!-- valid_booking_passengers_carddetails -->
+    <test started-at="2023-12-07T19:40:45 IST" name="Invalid_cerdationals" finished-at="2023-12-07T19:42:35 IST" duration-ms="109209">
+      <class name="testcases.Tc_010_invalid_checkin">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc_010_invalid_checkin@5dcd8c7a]" started-at="2023-12-07T19:40:45 IST" name="browserlaunch" finished-at="2023-12-07T19:41:06 IST" duration-ms="20203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="invalidcheckin()[pri:10, instance:testcases.Tc_010_invalid_checkin@5dcd8c7a]" started-at="2023-12-07T19:41:06 IST" name="invalidcheckin" finished-at="2023-12-07T19:41:08 IST" duration-ms="2684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidcheckin -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:testcases.Tc_010_invalid_checkin@5dcd8c7a]" started-at="2023-12-07T19:41:09 IST" name="browserclose" finished-at="2023-12-07T19:41:13 IST" duration-ms="4094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- testcases.Tc_010_invalid_checkin -->
+      <class name="testcases.Tc_012_invalid_managebooking">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc_012_invalid_managebooking@7e3181aa]" started-at="2023-12-07T19:41:40 IST" name="browserlaunch" finished-at="2023-12-07T19:41:57 IST" duration-ms="16995" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="invalidmanagebooking()[pri:12, instance:testcases.Tc_012_invalid_managebooking@7e3181aa]" started-at="2023-12-07T19:41:57 IST" name="invalidmanagebooking" finished-at="2023-12-07T19:41:59 IST" duration-ms="2456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidmanagebooking -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:testcases.Tc_012_invalid_managebooking@7e3181aa]" started-at="2023-12-07T19:42:00 IST" name="browserclose" finished-at="2023-12-07T19:42:03 IST" duration-ms="3484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- testcases.Tc_012_invalid_managebooking -->
+      <class name="testcases.Tc_014_invalid_roundtrip_page">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc_014_invalid_roundtrip_page@253d9f73]" started-at="2023-12-07T19:42:03 IST" name="browserlaunch" finished-at="2023-12-07T19:42:26 IST" duration-ms="22392" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="invalidroundtrip()[pri:14, instance:testcases.Tc_014_invalid_roundtrip_page@253d9f73]" started-at="2023-12-07T19:42:26 IST" name="invalidroundtrip" finished-at="2023-12-07T19:42:30 IST" duration-ms="4465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidroundtrip -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:testcases.Tc_014_invalid_roundtrip_page@253d9f73]" started-at="2023-12-07T19:42:31 IST" name="browserclose" finished-at="2023-12-07T19:42:35 IST" duration-ms="3734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- testcases.Tc_014_invalid_roundtrip_page -->
+      <class name="testcases.Tc_011_invalid_flightstatus">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc_011_invalid_flightstatus@2250b9f2]" started-at="2023-12-07T19:41:13 IST" name="browserlaunch" finished-at="2023-12-07T19:41:31 IST" duration-ms="18123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="invalidflightstatus()[pri:11, instance:testcases.Tc_011_invalid_flightstatus@2250b9f2]" started-at="2023-12-07T19:41:31 IST" name="invalidflightstatus" finished-at="2023-12-07T19:41:36 IST" duration-ms="4616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidflightstatus -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:testcases.Tc_011_invalid_flightstatus@2250b9f2]" started-at="2023-12-07T19:41:36 IST" name="browserclose" finished-at="2023-12-07T19:41:40 IST" duration-ms="3752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- testcases.Tc_011_invalid_flightstatus -->
+    </test> <!-- Invalid_cerdationals -->
+  </suite> <!-- Suite -->
+</testng-results>
